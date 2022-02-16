@@ -3,7 +3,7 @@ package Stack;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class EvaluateInfixExpression {
+public class EvaluatePrefixExpression {
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
