@@ -34,7 +34,7 @@ public class MazePathWithJumps {
             }
         }
 
-        for(int i = 1 ; i<=dx-sx ; i++) {
+        for(int i = 1 ; i<=dx-sx && i<=dy-sy; i++) {
             List<String> paths = getThePaths(sx+i, sy+i, dx, dy);
             for(String p : paths){
                 res.add("d"+i+p);
